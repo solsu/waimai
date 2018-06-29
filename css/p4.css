@@ -1,0 +1,142 @@
+/*
+* @Author: lisheng
+* @Date:   2018-05-27 09:04:04
+* @Last Modified by:   lisheng
+* @Last Modified time: 2018-05-27 10:07:33
+*/
+@import url(base.css);
+.tu img{
+	width: 100%;
+}
+.tu i{
+	position: absolute;
+	left: 0.24rem;
+	top: -1.9rem;
+	color: white;
+}
+.xia{
+	width: 100%;
+	background: #f5f5f5;
+}
+.xia1{
+	height: 1.7rem;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+.xia1 div:first-child{
+	width: 2.4rem;
+}
+.xia1 div:last-child{
+	width: 1.7rem;
+}
+.xia1 h2{
+	font-size: 0.48rem;
+	line-height: 0.8rem;
+}
+.xia1 h6{
+	line-height: 0.48rem;
+	font-size: 0.24rem;
+	color: #ccc;
+}
+.xia1 h4{
+	color: red;
+	font-size: 0.5rem;
+	line-height: 0.8rem;
+}
+.xia1 div:last-child div{
+	background: #356da1;
+	width: 1rem;
+	height: 0.5rem;
+	border-radius: 0.5rem;
+}
+.xia1 h5{
+	font-size: 0.24rem;
+	color: white;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.xia2{
+	width: 100%;
+	height: 1.36rem;
+	margin: 0.1rem 0;
+	background: white;
+}
+.xia2 h2{
+	font-size: 0.4rem;
+	margin-left: 0.6rem;
+	line-height: 0.5rem;
+}
+.xia2 h3{
+	font-size: 0.3rem;
+	margin-left: 0.6rem;
+	line-height: 0.4rem;
+}
+.xia3{
+	width: 100%;
+	height: 4.36rem;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.xia3 h2{
+	margin-left: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.4rem;
+}
+.xia3 div{
+	width: 6.53rem;
+	height: 0.95rem;
+	background: #f5f5f5;
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	display: flex;
+}
+.xia3 img{
+	width: 0.9rem;
+	height: 0.9rem;
+}
+.xia3 h5{
+	font-size: 0.2rem;
+	line-height: 0.76rem;
+	margin-left: 0.4rem;
+}
+.xia3 h6{
+	font-size: 0.2rem;
+	color: #ccc;
+	line-height: 1.6rem;
+	/* margin-left: 0.6rem; */
+}
+.bottom{
+	width: 100%;
+	height: 0.98rem;
+	background: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.bottom div{
+	border-radius: 50%;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: white;
+	position: absolute;
+	bottom:0.3rem;
+	left: 0.5rem;
+}
+.bottom i{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	font-size: 1.22rem;
+	color: #356da1;
+}
+.bottom h6{
+	position: absolute;
+	right: 1rem;
+	bottom: 0.3rem;
+	color: white;
+	font-size: 0.3rem;
+	font-weight: normal;
+}

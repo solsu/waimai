@@ -1,0 +1,339 @@
+/*
+* @Author: lisheng
+* @Date:   2018-05-21 14:36:48
+* @Last Modified by:   lisheng
+* @Last Modified time: 2018-05-27 20:50:02
+*/
+@import url('base.css');
+header .ding{
+	width: 100%;
+	height: 1.24rem;
+	background: #356da1;
+}
+h2{
+	font-family: normal;
+}
+a{
+	color: black;
+}
+h4{
+	font-family: normal;
+}
+.ding div:nth-child(1){
+	height: 0.62rem;
+	width: 100%;
+	float: left;
+}
+.ding div:nth-child(2){
+	width: 100%;
+	height: 0.62rem;
+}
+.search input{
+	margin: 0 auto 0;
+	display:block;
+	font-size:0.24rem; 
+	border: none;
+	height: 0.5rem;
+	width: 6.5rem;
+	box-sizing: border-box;
+	border: none;
+}
+.search input:focus{
+	outline: none;
+}
+.ding i{
+	display:block;
+	font-size: 0.36rem;
+	color: white;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.15rem;
+}
+.ding i:nth-child(3){
+	font-size: 0.24rem;
+	margin-top: 0.23rem;
+	margin-left: 0.1rem;
+}
+.ding span{
+	font-size: 0.24rem;
+	color: white;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.05rem;
+}
+.ding i:nth-child(4){
+	font-size: 0.36rem;
+	margin-top: 0.23rem;
+	margin-right: 0.5rem;
+	float: right;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 2.8rem;
+	position: relative;
+}
+/*.swiper-slide{*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*position:absolute;*/
+	/*top:0;*/
+	/*left: 0;*/
+/*}*/
+/*.swiper-wrapper img{*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+
+/*}*/
+.banner img{
+	width: 100%;
+}
+.ic{
+	height: 3rem;
+}
+.icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }
+.ic .box{
+	width: 7.02rem;
+	height: 0.86rem;
+	margin: 0.5rem auto 0;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.ic svg{
+font-size: 0.86rem;
+}
+.ic .wenben{
+	width: 7rem;
+	height: 0.3rem;
+	margin: 0.1rem auto 0rem;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.ic .wenben span{
+	font-size: 0.01rem;
+}
+.tuijian{
+	width: 7.02rem;
+	height: 6rem;
+	margin: 0.5rem auto 0;
+
+}
+.tuijian h2,.shangjia h2{
+	font-size: 0.4rem;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+.tuijian img{
+	display: inline-block;
+	width: 3.33rem;
+	height: 2.54rem;
+}
+.tuijian img:nth-child(4){
+	display: inline-block;
+	height: 2.54rem;
+	width: 100%;
+}
+.shangjia{
+	width: 7.02rem;
+	height: 10rem;
+	margin: 0.5rem auto 0.99rem;
+}
+.shangjia h2{
+	margin-top: 0.7rem;
+	margin-bottom: 0.5rem;
+}
+.shangjia span{
+	font-size: 0.24rem;
+	margin-left: 1rem;
+}
+.gezi{
+	width: 7.02rem;
+	height: 2.4rem;
+	margin-top: 0.3rem;
+	position: relative;
+	box-shadow: 0 0 0.1rem #888888;
+}
+.gezishang{
+	width: 100%;
+	height: 1.6rem;
+}
+.gezixia{
+	width: 100%;
+	height: 0.8rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.3)
+}
+.gezishang .tu{
+	width: 1.5rem;
+	height: 1.6rem;
+	float: left;
+}
+.gezishang .tu img{
+	display: block;
+	width: 1.3rem;
+	height: 1.3rem;
+	float: left;
+	margin-left: 0.05rem;
+	margin-top: 0.1rem;
+}
+.gezishang .zi{
+	width: 3rem;
+	height: 1.6rem;
+	float: left;
+}
+.gezishang .zi h6{
+	font-size: 0.36rem;
+	margin-bottom: 0.1rem;
+	margin-top: 0.05rem;
+}
+.gezishang .zi img{
+	width: 1.9rem;
+	height: 0.3rem;
+	display: block;
+	margin-bottom: 0.1rem;
+}
+.gezishang .zi h5{
+	font-size: 0.24rem;
+	margin-bottom: 0.1rem;
+}
+.gezishang .you h5{
+	font-size: 0.24rem;
+}
+.gezixia svg{
+	font-size: 0.3rem;
+	display: inline-block;
+	float: left;
+	margin-top: 0.05rem;
+	margin-left: 0.05rem;
+}
+.gezixia h5{
+	font-size: 0.24rem;
+	line-height: 0.38rem;
+	margin-left: 0.5rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.98rem;
+	background: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.gezishang .you svg{
+	position: absolute;
+	top: 0;
+	right: -0.01rem;
+	font-size: 0.56rem;
+}
+.bottom .bb{
+	height: 0.98rem;
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+	position: relative;
+
+}
+.s1{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	top:-0.45rem;
+	left: 0;
+}
+.s2{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	font-size: 0.2rem;
+	justify-content: space-around;
+	position: absolute;
+	top:0.6rem;
+	left: 0;
+}
+.bottom .bb .s1 a:first-child i{
+	color: #2196f3;
+}
+.bottom .bb i{
+	font-size: 0.5rem;
+	color: black;
+	/*padding-top: 0.1rem;*/
+	display: inline-block;
+}
+/*.bottom i:first-child{*/
+	/*color: blue;*/
+/*}*/
+/*.bottom i:nth-child(3){*/
+	/*font-size: 0.64rem;*/
+/*}*/
+/*.bottom i:nth-child(2){*/
+	/*font-size: 0.58rem;*/
+/*}*/
+/*.bottom i:nth-child(4){*/
+	/*font-size: 0.64rem;*/
+/*}*/
+.bottom h5{
+	color: black;
+	font-size: 0.18rem;
+	display: inline-block;
+}
+.bottom .bb h3{
+	font-size: 0.06rem;
+}
+.heads img{
+	width: 1.9rem;
+	height: 1.9rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+/*.bb h6{*/
+	/*!*position: absolute;*!*/
+	/*bottom: 0.03rem;*/
+	/*left: 0.68rem;*/
+	/*font-size: 0.12rem;*/
+/*}*/
+/*.bb h6:nth-child(6){*/
+	/*position: absolute;*/
+	/*bottom: 0.03rem;*/
+	/*left: 2.5rem;*/
+	/*font-size: 0.12rem;*/
+/*}*/
+/*.bb h6:nth-child(7){*/
+	/*position: absolute;*/
+	/*bottom: 0.03rem;*/
+	/*left: 4.4rem;*/
+	/*font-size: 0.12rem;*/
+/*}*/
+/*.bb h6:nth-child(8){*/
+	/*position: absolute;*/
+	/*bottom: 0.03rem;*/
+	/*left: 6.3rem;*/
+	/*font-size: 0.12rem;*/
+/*}*/
+.yin{
+	width: 1rem;
+	height: 1rem;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+		bottom: 0;
+	left: 4.4rem;
+}
+.yin1{
+	width: 1rem;
+	height: 1rem;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+		bottom: 0;
+	left: 6.3rem;
+}

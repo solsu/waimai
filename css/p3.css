@@ -1,0 +1,68 @@
+/*
+* @Author: lisheng
+* @Date:   2018-05-25 14:41:41
+* @Last Modified by:   lisheng
+* @Last Modified time: 2018-05-25 18:03:29
+*/
+@import url(base.css);
+.denglu img{
+	width: 100%;
+}
+.dengluxia{
+	width: 100%;
+	text-align: center;
+}
+input { outline: none;border: none; } 
+.t1{
+	width: 4rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding-left: 1rem;
+	display: block;
+	margin:0.5rem auto;
+}
+.p1{
+	width: 4rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding-left: 1rem;
+	display: block;
+	margin:0.25rem auto;
+}
+.deng{
+	width: 2rem;
+	background: #356da1;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	margin: 0.1rem auto;
+	text-align: center;
+	line-height: 0.8rem;
+	margin-top: 0.5rem;
+}
+.deng2{
+	width: 2rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	margin: 0.1rem auto;
+	border: 1px dashed rgba(0, 0, 0, 0.1);
+	text-align: center;
+	line-height: 0.8rem;
+}
+.deng h6{
+	font-size: 0.4rem;
+	color: white;
+	font-weight: normal;
+}
+.deng2 h6{
+	font-size: 0.18rem;
+	
+}
+.dengluxia h5{
+	font-size: 0.12rem;
+	margin-top: 1.5rem;
+}
+.dengluxia h5:first-letter{
+	color: #356da1;
+}
